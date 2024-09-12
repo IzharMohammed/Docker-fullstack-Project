@@ -1,7 +1,7 @@
 
 services:
   backend:
-    container_name: backend-service          # Name of the backend container
+    container_name: backendp          # Name of the backend container
     image: backend                   # Name of the Docker image for the backend
     build:
       context: ./backend             # Directory containing the Dockerfile for the backend service
