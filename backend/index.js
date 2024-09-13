@@ -119,6 +119,6 @@ app.delete('/user/:id', async (req, res) => {
 })
 
 // Start the Express server on port 3000
-app.listen(3000, () => {
+app.listen(8000, () => {
     console.log('server is up!!!'); // Log when the server is running
 })
